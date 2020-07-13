@@ -40,7 +40,7 @@ Pense no repositório `42-SP-future-pisciners` como o repositório do site que j
 2. Clone os arquivos do `origin` para a sua máquina local. É nesse repositório local que você irá fazer todas as mudanças (alterar arquivos, adicionar arquivos, etc). Aqui, como iremos adicionar um novo arquivo de texto (nova funcionalidade), criamos um novo `branch` (lembre de fazer `checkout`). Nomeei o `branch` com o nome `add_[seu nome]_introduction`
 3. Dentro da pasta `git` você irá adicionar uma pasta com o seu nome, e dentro dessa pasta criar um aquivo `introducing_myself.txt` onde você irá se apresentar (fale sobre você, coisa desse tipo). Depois de feito isso, faça um novo `commit` (não esqueça da mensagem!)
 4. Agora iremos fazer o merge do nosso `branch` ao `master`. Para isso precisamos fazer `checkout` para onde queremos fazer o `merge`, neste caso fazemos checkout para o `master`
-5. Agora precisamos enviar o nosso `master` para o nosso `origin`, pois nós não temos acesso direto para mandar essas modificações para o `umstream`
+5. Agora precisamos enviar o nosso `master` para o nosso `origin`, pois nós não temos acesso direto para mandar essas modificações para o `upstream`
 6. Finalmente, fazemos um `pull request` para o upstream, enviando o nosso `origin`. O `pull request` pode ser feito pela interface do Github
 7. **Pronto! Acredito que finalizando até aqui você já consegue utilizar o Git na piscina sem demais problemas**
 >P.s: Se tiver alguma dificuldade, peça ajuda para mim ou para algum dos outros futuros pisciners! Tenha certeza que todos estão super dispostos a te ajudar (:
