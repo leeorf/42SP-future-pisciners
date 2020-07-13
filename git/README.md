@@ -1,6 +1,4 @@
 # Git
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/leeorf)](https://github.com/leeorf)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leonardof/)](https://www.linkedin.com/in/leonardorodriguesf/)
 
 
 ### Eu, somente eu 🥶
