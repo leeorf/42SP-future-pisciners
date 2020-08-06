@@ -1,3 +1,4 @@
+
 # 42SP aqui vamos nós! :rocket:
 > *"Work hard, dream big"*
 
@@ -8,7 +9,6 @@
 
 * [Minhas sugestões](#minhas-sugestões)
     * [Git](#git)
-    * [Intranet](#intranet)
     * [Shell scripting](#shell-scripting)
     * [vim](#vim)
     * [C](#c)
@@ -32,8 +32,6 @@ Por conta disso, deixo bem claro que tudo aqui é apenas **suposição**, e voc�
 
 Irei listar alguns comandos que podem ser muito úteis: `cd`, `mv`, `rm`, `ls`, `touch`, `mkdir`, `chmod`, `chown`
 
-
-
 ## Git
 
 Na 42 provavelmente você usará o Git pra tudo (ou quase tudo). Então é legal se familiarizar com o assunto e entender pelo menos o básico sobre o seu funcionamento.
@@ -42,27 +40,49 @@ Comando como `init`, `clone`, `commit`, `push`, `pull`, `add`podem ser muito út
 
 [Exercício de Git](/git)
 
-
-
-## Intranet
-
-- [ ] *Em construção*
-
-
 ## Shell scripting
 
-- [ ] *Em construção*
+Shell scripting é um assunto bem extenso, então vou optar por indicar um link caso queiram estudar.
+
+Durante meus estudos procuro sempre fazer anotações, e estudando shell não foi diferente. Caso queiram um material para guiá-los nos estudos, aqui estão minhas anotações:
+
+[Anotações sobre Shell e Shell Scripting](https://www.notion.so/Shell-b8f6cdefdda749a5acdef0d2d3e03ec5) 
 
 
 ## vim
 
-- [ ] *Em construção*
+Se você já conhece editores de texto (onde nós digitamos os nossos programas), saiba que o vim é um editor de texto.
+
+Mas o vim é um editor de texto especial, pois ele pode ser utilizado através de uma CLI (command line interface) e ele vem por padrão em sistemas Unix based.
+
+Saiba que provavelmente nossos editores de textos queridinhos (leia-se **VSCode** :satisfied:) não poderão ser utilizados, então é importante saber utilizar o vim.
+
+> Aqui não tenho exercicios específicos para indicar para praticar. A minha dica é que vocês utilizem vim para tudo, até se habituarem
+
+Aqui vão algumas dicas básicas:
+
+- O vim possui modos de operação. Os primeiros que vocês devem conhecer são os modos de **comando** e **insert**
+	- **comando**: você pode utilizar comandos para que o vim os interprete
+	- **insert**: para sair do modo de comando para o modo insert você pode apertar a letra `i`
+	
+Se quiser estudar um pouco mais afundo, vou deixar linkados algumas anotações que fiz sobre vim
+
+[Anotações sobre vim](https://www.notion.so/Writing-Shell-Scripts-64ef12b2199d4797b1ab6af48b2dd5cf)
+
+> OBS: Caso algum dia você entre no vim e não saiba sair, não se desespere. É so apertar `:q`
+> p.s: Isso já aconteceu comigo :laughing:
 
 
+![](https://pics.me.me/vim-68280725.png)
 ## C
 
-- [ ] *Em construção*
+Se tratando da tradicional linguagem de programação C, é necessário bastante atenção quando for fazer os exercícios para praticar para a piscina. Isso porque muitas coisas são proibidas como:
 
+:x: Declarar e atribuir valor para uma variável na mesma linha; 
+:x: Utilizar `printf`;
+:x: Utilizar `for` loop;
+
+[Exercícios de C](/C)
 
 # Materiais que podem ajudar
 
