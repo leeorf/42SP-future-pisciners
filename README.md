@@ -78,8 +78,10 @@ Se quiser estudar um pouco mais afundo, vou deixar linkados algumas anotações 
 
 Se tratando da tradicional linguagem de programação C, é necessário bastante atenção quando for fazer os exercícios para praticar para a piscina. Isso porque muitas coisas são proibidas como:
 
-:x: Declarar e atribuir valor para uma variável na mesma linha; 
+:x: Declarar e atribuir valor para uma variável na mesma linha;
+
 :x: Utilizar `printf`;
+
 :x: Utilizar `for` loop;
 
 [Exercícios de C](/C)
