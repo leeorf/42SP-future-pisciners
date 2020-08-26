@@ -1,102 +1,96 @@
 
-# 42SP aqui vamos nós! :rocket:
+
+# Here we go 42SP! :rocket:
 > *"Work hard, dream big"*
 
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/leeorf)](https://github.com/leeorf)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leonardof/)](https://www.linkedin.com/in/leonardorodriguesf/)
 
-# Índice
+# Table of contents
 
-* [Minhas sugestões](#minhas-sugestões)
+* [Personal hint](#personal-hint)
     * [Git](#git)
     * [Shell scripting](#shell-scripting)
     * [vim](#vim)
     * [C](#c)
-* [Materiais que podem ajudar](#materiais-que-podem-ajudar)
-* [Autor](#autor)
-* [Contribuições](#contribuições)
-* [Licença](#licença)
+* [Additional Material](#additional-material)
+* [Author](#author)
+* [Contributing](#contributing)
+* [License](#license)
 
-# Minhas sugestões
+# Personal hint
 
-Uma das coisas que a 42 prega é:
+One of 42's rules is:
 
-> "Não acredite em rumores"
+> "Don't believe rumors"
 
-E isso tem uma razão de ser. Faz parte da metodologia da 42 não deixar as coisas tão claras (*e talvez por isso gostei ainda mais do método deles* :laughing:).
+And there is a reason for that. The 42 methodology is to don't make things so clear.
 
-Por conta disso, deixo bem claro que tudo aqui é apenas **suposição**, e vocês devem usar como achar necessário.
+Because of that, it is important to notice that all of this are **assumptions**, and you guys must use as you wish and at your own responsibility.
 
->## Dicas imporante
-> Pelo que pesquisei, na 42 um dos poucos recursos que podemos assessar é o **terminal**. Então provavelmente iremos fazer tudo com ele, então minha sugestão é: **usem o  terminal para fazer os exercícios**
+>## Hot tip
+>I found that one of the fewest resources that we can use there, is the **terminal**. So, as we are going to use terminal all the time, my advice is to **use the terminal to do the exercises"**
 
-Irei listar alguns comandos que podem ser muito úteis: `cd`, `mv`, `rm`, `ls`, `touch`, `mkdir`, `chmod`, `chown`
+Here goes some useful commands that you may need: `cd`, `mv`, `rm`, `ls`, `touch`, `mkdir`, `chmod`, `chown`
 
 ## Git
 
-Na 42 provavelmente você usará o Git pra tudo (ou quase tudo). Então é legal se familiarizar com o assunto e entender pelo menos o básico sobre o seu funcionamento.
+During the piscine we are going to use Git for everything (or almost everything). So, it is a good idea to familiarize yourself with it and understand the basic commands and its workflow.
 
-Comando como `init`, `clone`, `commit`, `push`, `pull`, `add`podem ser muito úteis
+Commands such as `init`, `clone`, `commit`, `push`, `pull`, `add` can be very useful.
 
-[Exercício de Git](/git)
+[Git exercises](/git)
 
 ## Shell scripting
 
-Shell scripting é um assunto bem extenso, então vou optar por indicar um link caso queiram estudar.
+Shell scripting is a very extensive subject, so I am going to link some of my the material that I write while I am studying.
 
-Durante meus estudos procuro sempre fazer anotações, e estudando shell não foi diferente. Caso queiram um material para guiá-los nos estudos, aqui estão minhas anotações:
-
-[Anotações sobre Shell e Shell Scripting](https://www.notion.so/Shell-b8f6cdefdda749a5acdef0d2d3e03ec5) 
+[Shell e Shell Scripting notes](https://www.notion.so/Shell-b8f6cdefdda749a5acdef0d2d3e03ec5) 
 
 
 ## vim
 
-Se você já conhece editores de texto (onde nós digitamos os nossos programas), saiba que o vim é um editor de texto.
+If you are already familiar with text editors (the place where we write our programs), know that vim is also a text editor.
 
-Mas o vim é um editor de texto especial, pois ele pode ser utilizado através de uma CLI (command line interface) e ele vem por padrão em sistemas Unix based.
+But vim is a different kind of text editor, because we can use it through a CLI (command line interface) and it comes by default in Unix based systems.
 
-Saiba que provavelmente nossos editores de textos queridinhos (leia-se **VSCode** :satisfied:) não poderão ser utilizados, então é importante saber utilizar o vim.
+Probably our favorite text editors (**VSCode** cough cough :satisfied:) won't be allowed, so it is important to take a time to understand how to work with vim.
 
-> Aqui não tenho exercicios específicos para indicar para praticar. A minha dica é que vocês utilizem vim para tudo, até se habituarem
+> Here I don't know any specific exercise to practice vim. My advice is to use vim as much as you can, until you get used to it.
 
-Aqui vão algumas dicas básicas:
+Some tips about vim:
 
-- O vim possui modos de operação. Os primeiros que vocês devem conhecer são os modos de **comando** e **insert**
-	- **comando**: você pode utilizar comandos para que o vim os interprete
-	- **insert**: para sair do modo de comando para o modo insert você pode apertar a letra `i`
-	
-Se quiser estudar um pouco mais afundo, vou deixar linkados algumas anotações que fiz sobre vim
+- Vim has operation modes. The first ones you should be aware of are: **command** mode and **insert** mode.
+	- **command**: you can enter commands that vim will execute. When you start vim this is the default mode.
+	- **insert**: mode where we can actually type normally. To go from command mode to insert mode you can press `i`.
 
-[Anotações sobre vim](https://www.notion.so/Writing-Shell-Scripts-64ef12b2199d4797b1ab6af48b2dd5cf)
-
-> OBS: Caso algum dia você entre no vim e não saiba sair, não se desespere. É so apertar `:q`
-> p.s: Isso já aconteceu comigo :laughing:
-
+>OBS: In case you "accidentally" enter vim and don't know how to quit, don't desperate. Just press `:q` and its done. And this has happened to me already :laughing:
 
 ![](https://pics.me.me/vim-68280725.png)
+
 ## C
 
-Se tratando da tradicional linguagem de programação C, é necessário bastante atenção quando for fazer os exercícios para praticar para a piscina. Isso porque muitas coisas são proibidas como:
+When it comes to the traditional C programming language, you need to pay attention when doing the exercises, because in the piscine a lot of things are forbidden. Things like:
 
-:x: Declarar e atribuir valor para uma variável na mesma linha;
+:x: Declaring and initializing a variable in the same line;
 
-:x: Utilizar `printf`;
+:x: Use `printf`;
 
-:x: Utilizar `for` loop;
+:x: Use `for` loop;
 
-[Exercícios de C](/C)
+[C exercises](/C)
 
-# Materiais que podem ajudar
+# Additional Material
 
-### Algumas dicas gerais
+### Some general tips
 
-[O Guia (In)definitivo do Piscineiro das Galáxias.](https://medium.com/@italobalbino/o-guia-in-definitivo-do-piscineiro-das-gal%C3%A1xias-4f3a3baa6327)(**Específico para 42SP**) 
+[O Guia (In)definitivo do Piscineiro das Galáxias.](https://medium.com/@italobalbino/o-guia-in-definitivo-do-piscineiro-das-gal%C3%A1xias-4f3a3baa6327)(**Specific for 42SP**) 
 
 [My Piscine Experience (all in one post)](https://medium.com/@themichaelbrave/my-piscine-experience-all-in-one-post-85671e0bf307)
 
 [42 School Cheat Sheet by agavrel](https://github.com/agavrel/42_CheatSheet)
 
-### Repositórios com exercícios hardcore :fire:
+### Repositories with hardcore exercises :fire:
 
 [42_piscine](https://github.com/MrRobb/42_piscine)
 
@@ -108,15 +102,15 @@ Se tratando da tradicional linguagem de programação C, é necessário bastante
 
 [examshell](https://github.com/gcamerli/examshell)
 
-### Repositório bem legal que mostra um pouco das jornadas dentro da 42
-> !!!!!**CONTÉM SPOILER**!!!!!
+### Cool Repository that shows the possible paths inside the 42 as a cadet
+> !!!!!**SPOILER ON**!!!!!
 
 [42 Starfleet Academy - Curriculum](https://github.com/psprawka/42_Projects)
 
 
 
 
-# Autor
+# Author
 
 **Leonardo Rodrigues**
 
@@ -125,9 +119,9 @@ Se tratando da tradicional linguagem de programação C, é necessário bastante
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leonardof/)](https://www.linkedin.com/in/leonardorodriguesf/)
 
 
-# Contribuições
+# Contributing
 
-Sintam-se à vontade para contribuir, seja você um futuro piscineiro ou não!
+Feel free to contribute, be you a future pisciner or not.
 
-# Licença
-Este projeto está licenciado sob a [MIT License](./LICENSE)
+# License
+This project is licensed under the terms of the [MIT License](./LICENSE)
