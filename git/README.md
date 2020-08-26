@@ -1,44 +1,48 @@
+
 # Git
 
 
-### Eu, somente eu 🥶
+### Working alone
 
-Caso você nunca tenha usado Git e não sabe como funciona, sugiro dar uma lida nesse material:
+In case you've never used Git before and don't know how it works, I suggest taking a look on this material:
 
-[Tutorial Git iniciante (em inglês)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+[Git beginner tutorial (in English)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 
-**Aqui temos o seguinte cenário:** você está trabalhando sozinho e tem que fazer a conexão entre sua máquina local e o seu repositório no Github.
+**The scenario**: you are working alone and you have to connect your local machine and you repository on Github.
 
-O projeto que iremos fazer é bem simples, iremos utilizar somente arquivos de texto simples para entender como funcionam o Git e o Github.
+In this case the project is very simple, we are going to use text files to understand how Git and Github works.
 
-1. Crie uma pasta com o nome `my-first-github-repo` no local em que preferir no seu computador
-2. Agora é com você: inicie o git, crie um ou mais arquivos de texto, faça `commits` (não esqueça da mensagem) 
-3. Feito isso, agora é hora de upar o projeto no Github
-4. **Pronto! Você finalizou a primeira parte**
+1. Create a folder named `my-first-github-repo` in any place that you want, on your computer
+2. Initialize git, create one or more text files and don't forget to `commit` those changes (and please, don't forget about the message)
+3. Now push the folder into your Github
+4. **And done! You nailed the first part!**
 
->P.s: Se tiver alguma dificuldade, peça ajuda para mim ou para algum dos outros futuros pisciners! Tenha certeza que todos estão super dispostos a te ajudar (:
-
+>p.s: If you have any problems, ask for help and me or any other future pisciners will be there to help you
 ---
 
-### Git no mundo real 🥵
+### Working with other people
 
-Antes de começar essa parte, sugiro dar uma olhada nesse material:
+Before you start, I highly recommend to see this material:
 
-[Tutorial Git contribuindo com um projeto Open Source (em inglês)](https://www.theodinproject.com/courses/ruby-programming/lessons/using-git-in-the-real-world)
+[Using Git in the real world (in English)](https://www.theodinproject.com/courses/ruby-programming/lessons/using-git-in-the-real-world)
 
-**Aqui temos o seguinte cenário:** você está trabalhando junto com outros devs em um projeto que já está em produção (pense por exemplo em um site que já está no ar).
+**The scenario**: You are working in a project already in production, with other developers (you can think as a website that is already online).
 
-Neste caso iremos fazer uma simulação desse ambiente, porém apenas com arquivos de texto simples.
+In our case we are going to simulate this environment, but only with simple text files.
 
-Pense no repositório `42-SP-future-pisciners` como o repositório do site que já está em produção (ele será o `upstream`). O que você vai fazer é adicionar um arquivo de texto (que irá criar no seu computador) como se fosse uma nova funcionalidade que vai adicionar ao site.
+Think of the `42-SP-future-pisciners` repository as the website repository (in this case we call it `upstream`). What you are going to do is add a new text file (that you are going to create in your computer) to it.
 
-1. Faça um fork do repositório `upstream`. Agora você terá um repositório pŕoprio no seu Github que é chamado de `origin`. Como clonamos esse repositório, nós ja temos um remoto que aponta para o `origin` (nosso fork no Github). Nós precisamos adicionar também um remoto que aponte para o repositório `upstream`. Resumindo:
-    - `origin`: repositório `42-SP-future-pisciners` que você forkou
-    - `upstream`: repositório `42-SP-future-pisciners` original
-2. Clone os arquivos do `origin` para a sua máquina local. É nesse repositório local que você irá fazer todas as mudanças (alterar arquivos, adicionar arquivos, etc). Aqui, como iremos adicionar um novo arquivo de texto (nova funcionalidade), criamos um novo `branch` (lembre de fazer `checkout`). Nomeei o `branch` com o nome `add_[seu nome]_introduction`
-3. Dentro da pasta `git` você irá adicionar uma pasta com o seu nome, e dentro dessa pasta criar um aquivo `introducing_myself.txt` onde você irá se apresentar (fale sobre você, coisa desse tipo). Depois de feito isso, faça um novo `commit` (não esqueça da mensagem!)
-4. Agora iremos fazer o merge do nosso `branch` ao `master`. Para isso precisamos fazer `checkout` para onde queremos fazer o `merge`, neste caso fazemos checkout para o `master`
-5. Agora precisamos enviar o nosso `master` para o nosso `origin`, pois nós não temos acesso direto para mandar essas modificações para o `upstream`
-6. Finalmente, fazemos um `pull request` para o upstream, enviando o nosso `origin`. O `pull request` pode ser feito pela interface do Github
-7. **Pronto! Acredito que finalizando até aqui você já consegue utilizar o Git na piscina sem demais problemas**
->P.s: Se tiver alguma dificuldade, peça ajuda para mim ou para algum dos outros futuros pisciners! Tenha certeza que todos estão super dispostos a te ajudar (:
+### Initial Setup
+1. Fork the original `upstream` repository into your own Github account by using the fork button at the top of the `42-SP-future-pisciners` repository.
+2. Clone your forked repository onto your local machine
+3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on Github. You will use this to push changes back up to Github. You'll also want to be able to pull directly from the original repository on Github (the `upstream` repository), by setting it up as another remote. Do this by using `git remote add upstream https://github.com/leeorf/42SP-future-pisciners.git` inside the project folder `git`
+
+### Ongoing Workflow
+We've got one main branch - `master`. Think of `master` as the production-ready code. Any code deployed to `master` will be tested in staging and shipped to production. You will be working in a feature branch and submitting your pull requests to the `master` branch.
+1. Create a new "feature" branch. In our case we are going to create a text file where you are going to introduce yourself. Create the branch using `git checkout -b add_yourname_introduction`
+2. Now create a file `introducing_myself.txt` where you must introduce yourself. Done that, `commit` the changes
+3. Now we are going to merge our `branch` into `master`. Merge into with `git checkout master` followed by `git merge add_yourname_introduction`
+4. Now, you want to send or local version of the `master` branch back up to your `origin` (your fork of the `upstream` repository). You can't send directly to `upstream` because you don't have access, so you will need to make a pull request. Use `git push origin master` to ship `master` up to your fork on Github
+5. Finally, submit a pull request to send your forked version of `master` back to the original `upstream` (in this case the `42-SP-future-pisciners` repository). This can be done using Github's interface. You just need to make sure you are sending it back to the `master` branch
+6. **Done!! I believe that now you can use Git and Github with no further problems during the piscine**
+>p.s: If you have any problems, ask for help and me or any other future pisciners will be there to help you
