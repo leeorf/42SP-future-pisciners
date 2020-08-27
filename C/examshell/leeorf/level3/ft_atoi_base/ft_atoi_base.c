@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 char	to_lower(char c)
 {
 	if (c >= 'A' && c <= 'Z')
@@ -45,13 +43,4 @@ int	ft_atoi_base(const char *str, int str_base)
 	}
 
 	return result;
-}
-
-
-int main(int argc, char *argv[])
-{
-	int result;
-	result = ft_atoi_base(argv[1], 16);
-	printf("%d\n", result);
-	return 0;
 }
