@@ -1,10 +1,15 @@
 
 
+
 # Here we go 42SP! :rocket:
 > *"Work hard, dream big"*
 
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/leeorf)](https://github.com/leeorf)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leonardof/)](https://www.linkedin.com/in/leonardorodriguesf/)
+
+# About this repository
+
+This repository was made for the purpose of helping anyone who is going to face the *piscine* of any 42 School, in special who is applying for **42SP** (Brazil).
 
 # Table of contents
 
@@ -35,7 +40,7 @@ Here goes some useful commands that you may need: `cd`, `mv`, `rm`, `ls`, `touch
 
 ## Git
 
-During the piscine we are going to use Git for everything (or almost everything). So, it is a good idea to familiarize yourself with it and understand the basic commands and its workflow.
+During the *piscine* we are going to use Git for everything (or almost everything). So, it is a good idea to familiarize yourself with it and understand the basic commands and its workflow.
 
 Commands such as `init`, `clone`, `commit`, `push`, `pull`, `add` can be very useful.
 
@@ -70,7 +75,7 @@ Some tips about vim:
 
 ## C
 
-When it comes to the traditional C programming language, you need to pay attention when doing the exercises, because in the piscine a lot of things are forbidden. Things like:
+When it comes to the traditional C programming language, you need to pay attention when doing the exercises, because in the *piscine* a lot of things are forbidden. Things like:
 
 :x: Declaring and initializing a variable in the same line;
 
