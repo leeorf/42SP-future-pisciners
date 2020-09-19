@@ -13,12 +13,9 @@
     </a>
 </p>
 
-# About this repository
-
-This repository was made for the purpose of helping anyone who is going to face the *piscine* of any 42 School, in special who is applying for **42SP** (Brazil).
-
 # Table of contents
 
+* [About this repository](#about-this-repository)
 * [Personal hint](#personal-hint)
     * [Git](#git)
     * [Shell scripting](#shell-scripting)
@@ -28,6 +25,10 @@ This repository was made for the purpose of helping anyone who is going to face 
 * [Author](#author)
 * [Contributing](#contributing)
 * [License](#license)
+
+# About this repository
+
+This repository was made for the purpose of helping anyone who is going to face the *piscine* of any 42 School, in special who is applying for **42SP** (Brazil).
 
 # Personal hint
 
