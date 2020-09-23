@@ -1,18 +1,21 @@
 
 
+<h1 align="center">Here we go 42SP! :rocket:</h1>
+<h4 align="center"><i>"Work hard, dream big"</i></h4>
 
-# Here we go 42SP! :rocket:
-> *"Work hard, dream big"*
 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/leeorf)](https://github.com/leeorf)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leonardof/)](https://www.linkedin.com/in/leonardorodriguesf/)
-
-# About this repository
-
-This repository was made for the purpose of helping anyone who is going to face the *piscine* of any 42 School, in special who is applying for **42SP** (Brazil).
+<p align="center">
+    <a href="https://github.com/leeorf">
+      <img src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/leeorf">
+    </a>
+    <a href="https://www.linkedin.com/in/leonardorodriguesf/">
+      <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leonardof/">
+    </a>
+</p>
 
 # Table of contents
 
+* [About this repository](#about-this-repository)
 * [Personal hint](#personal-hint)
     * [Git](#git)
     * [Shell scripting](#shell-scripting)
@@ -22,6 +25,10 @@ This repository was made for the purpose of helping anyone who is going to face 
 * [Author](#author)
 * [Contributing](#contributing)
 * [License](#license)
+
+# About this repository
+
+This repository was made for the purpose of helping anyone who is going to face the *piscine* of any 42 School, in special who is applying for **42SP** (Brazil).
 
 # Personal hint
 
