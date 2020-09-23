@@ -1,11 +1,10 @@
 #include <unistd.h>
 #include <stdlib.h>
-#include <stdio.h>
 
 #define BUFF_SIZE 2048
 
 
-int main(int argc, char **argv)
+int 	main(int argc, char **argv)
 {
 	int	i;
 	int	loop;
